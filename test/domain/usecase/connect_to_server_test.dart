@@ -32,6 +32,7 @@ void main() {
 
     //assert
     identical(res, ApiResult.success((serverDetails.toEntity())));
+
     verify(mockSessionRepository.connectToServer(params));
     verifyNoMoreInteractions(mockSessionRepository);
   });

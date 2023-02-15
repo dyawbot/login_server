@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:login_server/features/presentations/pages/eks_server_login.dart';
+import 'package:login_server/features/presentations/pages/server_login/eks_server_login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      // debugShowMaterialGrid: true,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -30,4 +32,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
